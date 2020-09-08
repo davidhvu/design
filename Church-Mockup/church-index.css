@@ -10,6 +10,28 @@
     padding-bottom: 1rem;
 }
 
+@media (max-width: 575.98px) { 
+    #hero-bg {
+        background-position: center left;
+    }
+
+    #heading-box {
+        font-size: 1.5rem;
+    }
+
+    #h-p-box {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    #hero-bg {
+        background-position: center left;
+    }
+}
+
+
+
 #h-p-box {
     width: 30%;
 }
@@ -27,5 +49,16 @@
     
     background: rgb(128,189,203);
     background: linear-gradient(0deg, rgba(128,189,203,1) 0%, rgba(218,188,189,1) 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#show-more {
+    background-color: #DABCBD !important;
+    
+}
+
+#footer-sect {
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
