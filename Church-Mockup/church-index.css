@@ -1,0 +1,31 @@
+#hero-bg {
+    background-image: url("https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center left -60%;
+}
+
+#heading-box {
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+#h-p-box {
+    width: 30%;
+}
+
+#hero-bg > .container > p {
+    padding-bottom: 1rem;
+}
+
+#explore-btn {
+    background-color: #DABCBD !important;
+    
+}
+
+#article-bg {
+    
+    background: rgb(128,189,203);
+    background: linear-gradient(0deg, rgba(128,189,203,1) 0%, rgba(218,188,189,1) 100%);
+    padding-top: 2rem;
+}
