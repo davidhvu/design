@@ -30,6 +30,10 @@
     }
 }
 
+a {
+    text-decoration: none !important;
+    color: black;
+}
 
 
 #h-p-box {
@@ -58,7 +62,21 @@
     
 }
 
+#signup-sect {
+    padding-top:3rem;
+    padding-bottom: 3rem;
+}
+
+#signup-btn {
+    background: rgb(128,189,203);
+    background: linear-gradient(220deg, rgba(128,189,203,1) 0%, rgba(218,188,189,1) 100%);
+}
+
 #footer-sect {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+#footer-socials {
+    padding-top: 3rem;
 }
