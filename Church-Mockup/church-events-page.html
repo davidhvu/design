@@ -4,9 +4,8 @@
 
     <head>
 
-        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="church-about-page.css">
+        <link rel="stylesheet" href="church-events-page.css">
 
     </head>
 
@@ -21,56 +20,46 @@
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="church-index.html">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="church-about-page.html">About</a>
-                <a class="nav-item nav-link" href="#">Events</a>
+                <a class="nav-item nav-link" href="church-events-page.html">Events</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
               </div>
             </div>
           </nav>
 
-        <div class="container" id="community-margin">
-            <div class="row" id="community-sect">
-                <h4 class="display-4" id="heading-box">"Now you are the body of Christ, and each one of you is a part of it." 1 Corinthians 12:27 </h4>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-8">
-                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="img-fluid" alt="four person hands wrap around shoulders while looking at sunset">
-                </div>
-            </div>
-            <hr>
-            <h1>Community</h1>
-            <div class="row">
-                <div class="col-9">
-                    <p>Love thy neighbors as we should ought. With a focus on community and awareness. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-8">
-                    <img src="https://images.unsplash.com/photo-1536126750180-3c7d59643f99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="img-fluid" alt="journal with floral cross with text of you are loved">
-                </div>
-            </div>
-            <br>
-            
+
+        <div class="container" id="events-box">
+            <table class="table table-hover">
+                <thead>
+                  <tr class="d-flex">
+                    <th class="col-3">Date</th>
+                    <th class="col-3">Event</th>
+                    <th class="col-6">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="d-flex">
+                    <th class="col-3">December 12th, 2024</th>
+                    <td class="col-3">5-Year Anniversary</td>
+                    <td class="col-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Massa massa ultricies mi quis.</td>
+                  </tr>
+                  <tr class="d-flex">
+                    <th class="col-3">December 15th, 2024</th>
+                    <td class="col-3">Worship Night</td>
+                    <td class="col-6">Hac habitasse platea dictumst quisque sagittis purus. Leo a diam sollicitudin tempor. Ac tortor vitae purus faucibus. Semper eget duis at tellus at urna condimentum mattis pellentesque.</td>
+                  </tr>
+                  <tr class="d-flex">
+                    <th class="col-3">January 4th-January 7th, 2025</th>
+                    <td class="col-3">Woman's Retreat</td>
+                    <td class="col-6">Sollicitudin tempor id eu nisl nunc mi ipsum. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Mauris pharetra et ultrices neque. Nisi porta lorem mollis aliquam ut porttitor.</td>
+                  </tr>
+                </tbody>
+              </table>
         </div>
-        
-        <div class="container-fluid" id="about-sect-2">
-            <div class="container">
-                <div class="row" >
-                    <div class="col-4">
-                        <h4>The Bible</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="col-4">
-                        <h4>Church</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="col-4">
-                        <h4>Love in Acceptance</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+
+
+
+
+
 
         <div class="container" id="footer-sect">
             <div class="row">
@@ -84,7 +73,7 @@
                         
                     </ul>
                     <ul class="list-unstyled">
-                        <a href="#">Events</a>
+                        <a href="church-events-page.html">Events</a>
                         
                     </ul>
                     <ul class="list-unstyled">
@@ -116,17 +105,16 @@
                 </div>
             </div>
 
+        </div>
 
 
 
 
-
-              
+        
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/525b341357.js" crossorigin="anonymous"></script>
-
     </body>
 
 </html>
