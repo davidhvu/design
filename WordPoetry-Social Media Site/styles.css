@@ -15,3 +15,15 @@ nav {
     width: 30%;
 }
 
+#sect-2-bg {
+    background-image: url(\Users\dvu49\Desktop\WebDev\Web Design\WordPoetry-Social Media Site\green-wave.svg);
+}
+
+.box {
+    
+    border-radius: 10%;
+    padding: .5rem;
+    
+
+}
+
