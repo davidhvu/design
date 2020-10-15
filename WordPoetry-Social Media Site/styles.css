@@ -16,9 +16,16 @@ nav {
 }
 
 #sect-2-bg {
-    background-image: url(\Users\dvu49\Desktop\WebDev\Web Design\WordPoetry-Social Media Site\green-wave.svg);
+    background: url(green-wave.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100% 0%;
+    transform: rotate(-90deg)
 }
 
+.reverse-rotate {
+    transform: rotate(90deg)
+}
 .box {
     
     border-radius: 10%;
