@@ -2,30 +2,38 @@ nav {
     margin-bottom: 5rem !important;
 }
 
-#sect-1-bg  {
+#sect-1  {
     background-image: url("https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80") !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 25%; 
     height: 80vh;
+    /* background: rgb(171,206,59);
+    background: linear-gradient(135deg, rgba(171,206,59,1) 0%, rgba(247,30,14,1) 60%, rgba(15,138,194,1) 100%); */
+} 
+
+#sect-1 p {
+    padding-top: 8rem;
+    padding-left: 4rem;
 }
 
 #sect-1-message {
     width: 30%;
 }
 
-#sect-2-bg {
+body {
     background: url(green-wave.svg);
     background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: 100% 0%;
-    transform: rotate(-90deg)
+    background-size: 100%;
+    background-position: 0% 0%;
+    transform: rotate(0deg)
 }
 
-.reverse-rotate {
+
+/* .reverse-rotate {
     transform: rotate(90deg)
-}
+} */
 .box {
     
     border-radius: 10%;
