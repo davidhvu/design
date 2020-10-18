@@ -4,3 +4,15 @@
     align-items: center;
 }
 
+#page-1 {
+    background: url(Fish-Icon.jpg);
+    background-size: 25%;
+    background-blend-mode: multiply;
+    background-color: #666666;
+    
+}
+
+#home-page {
+    color: white;
+}
+
